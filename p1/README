@@ -1,0 +1,4 @@
+Run solution for main.cpp: ./uthread-solution-exe 100000000 8
+
+Intermediate:
+The testing function void *f(void *arg) locates at the top of uthread.cpp. It tests whether thread switching works. The main file is modified to accommodate the testing. f() should be called totalThread-1 amount of times to show all switchings between threads, that is, all threads except for the main. The rest part of the project is to be finished for final submission.
